@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import BranchGeneral from "../components/BranchGeneral";
 import { Link } from "react-router-dom";
 const BankList = () => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState();
   const url =
     "https://europe-west1-proto-rn-frbs-4242.cloudfunctions.net/loadBranches";
   useEffect(() => {

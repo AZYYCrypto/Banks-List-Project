@@ -1,9 +1,3 @@
-export default function BranchDetails(bank) {
-  console.log(bank);
-
-  return (
-    <div className="Branch_Details">
-      <div>Details For Bank:</div>
-    </div>
-  );
+export default function BranchDetails() {
+  return <div className="Branch_Details">Details: ...</div>;
 }

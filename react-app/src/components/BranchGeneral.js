@@ -1,4 +1,5 @@
 import "./BranchGeneral.css";
+
 export default function BranchGeneral({ Branch }) {
   return (
     <div className="Branch_General">
