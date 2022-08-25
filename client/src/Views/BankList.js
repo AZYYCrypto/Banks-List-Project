@@ -1,1 +1,3 @@
-export const BankList = () => {};
+export const BankList = () => {
+  return <div></div>;
+};
