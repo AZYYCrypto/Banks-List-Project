@@ -5,7 +5,6 @@ export const BankList = () => {
 
   const banksUrl =
     "https://europe-west1-proto-rn-frbs-4242.cloudfunctions.net/loadBranches";
-
   useEffect(() => {
     fetch(banksUrl)
       .then((res) => res.json())
