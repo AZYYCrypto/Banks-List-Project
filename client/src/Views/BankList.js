@@ -11,7 +11,6 @@ export const BankList = () => {
       .then((res) => res.json())
       .then((res) => setBanks(res.data[0].Brand[0].Branch));
   }, []);
-
   return (
     <div className="BankList">
       {banks &&
