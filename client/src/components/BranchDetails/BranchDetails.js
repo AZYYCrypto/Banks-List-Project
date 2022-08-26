@@ -80,11 +80,11 @@ export const BranchDetails = ({ location }) => {
           return <p key={key}>{x}</p>;
         })}
       </div>
-      <div className="SortCod Box">
+      {/* <div className="SortCod Box">
         <h3>Sort Code</h3>
 
         <p>{SortCode[0]}</p>
-      </div>
+      </div> */}
       <div className="Type Box">
         <h3>Type</h3>
         <p>{Type}</p>
