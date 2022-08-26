@@ -49,7 +49,11 @@ export const BranchDetails = ({ location }) => {
         {ContactInfo.map((x, key) => {
           return (
             <div key={key}>
-              <p>{`${x.ContactDescription} - ${x.ContactType}`}</p>
+              <p>{`${
+                x.ContactDescription !== undefined
+                  ? x.ContactDescription + " - "
+                  : ""
+              }  ${x.ContactType}`}</p>
               <p>{x.ContactContent}</p>
             </div>
           );
