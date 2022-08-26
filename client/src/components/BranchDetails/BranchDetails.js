@@ -66,9 +66,9 @@ export const BranchDetails = ({ location }) => {
         <h3>Postal Adress</h3>
         {`BuildingNumber: ${PostalAddress.BuildingNumber}`}
         <p>{`Country: ${PostalAddress.Country}`}</p>
-        <h5>GeoLocation</h5>
+        {/* <h5>GeoLocation</h5>
         <p>{`Latitude: ${PostalAddress.GeoLocation.GeographicCoordinates.Latitude}`}</p>
-        <p>{`Longitude: ${PostalAddress.GeoLocation.GeographicCoordinates.Longitude}`}</p>
+        <p>{`Longitude: ${PostalAddress.GeoLocation.GeographicCoordinates.Longitude}`}</p> */}
         <p>{`Post Code: ${PostalAddress.PostCode}`}</p>
         <p>{`Street Name: ${PostalAddress.StreetName}`}</p>
         <p>{`Town Name: ${PostalAddress.TownName}`}</p>
