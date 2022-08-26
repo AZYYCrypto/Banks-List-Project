@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BranchGeneral } from "../components/BranchGeneral/BranchGeneral";
 import { Link } from "react-router-dom";
 export const BankList = () => {
   const [banks, setBanks] = useState();
@@ -16,7 +17,7 @@ export const BankList = () => {
         banks.map((el, key) => (
           <div key={key}>
             <Link to={`/bank-details/${el.Identification}`} state={{ el }}>
-              <div>{el.Name}</div>
+              <BranchGeneral Branch={el} />
             </Link>
           </div>
         ))}
