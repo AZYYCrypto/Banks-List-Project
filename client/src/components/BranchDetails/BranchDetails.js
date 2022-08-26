@@ -15,7 +15,6 @@ export const BranchDetails = ({ location }) => {
     Type,
   } = location.state.el;
 
-  console.log(PostalAddress);
   return (
     <div className="Branch_Details">
       <div className="Name Box">
